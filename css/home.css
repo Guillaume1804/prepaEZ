@@ -1,0 +1,71 @@
+h1 {
+    font-size: 1.5em;
+    color: green;
+}
+
+h3 {
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+#part1 button {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 0.75em;
+}
+
+#btn-Co2 {
+    border-style: none;
+}
+
+#btn-findStation {
+    border-color: rgb(89, 255, 89);
+}
+
+
+.separateur {
+    height: 2px;
+    max-width: 45%;
+}
+
+/* Responsive pour min-width:1366px */
+
+@media screen and (min-width: 1366px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main {
+        max-width: 85%;
+    }
+
+    #part1 {
+        flex-direction: row-reverse;
+        margin-bottom: 96px;
+    }
+
+    .txt-content {
+        max-width: 45%;
+    }
+
+    #part2 {
+        flex-direction: row;
+        margin-top: 96px;
+        margin-bottom: 96px;
+    }
+
+    #part3 {
+        flex-direction: row-reverse;
+        margin-top: 96px;
+    }
+
+    .separateur {
+        max-width: 90%;
+        margin: auto;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+}
